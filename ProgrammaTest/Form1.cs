@@ -22,6 +22,8 @@ namespace ProgrammaTest
             decimal[] vettore = { numericUpDown1.Value, numericUpDown2.Value, numericUpDown3.Value, numericUpDown4.Value, numericUpDown5.Value, numericUpDown6.Value, numericUpDown7.Value, numericUpDown8.Value, numericUpDown9.Value, numericUpDown10.Value };
             lblMax.Text = vettore.Max().ToString();
             lblMin.Text = vettore.Min().ToString();
+            int x = 0;
+            x = 3 - 6;
         }
     }
 }
